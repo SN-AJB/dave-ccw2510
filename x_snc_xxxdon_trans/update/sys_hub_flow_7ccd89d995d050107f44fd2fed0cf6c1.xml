@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_flow</internal_name>
+        <label_cache>[{"name":"ae15e228-5d9b-4238-a1d3-5316f2e0df38.statuses","label":"1➛Statuses","type":"array.object","base_type":"array.object","attributes":{"sourceId":"f3d91a3f-a801-4b81-8562-26c84b527a2d","pwd2droppable":"true","child_name":"status","uiUniqueId":"6bcd717c-846e-40b0-a75a-e474f5e10df3","uiTypeLabel":"Array.Object","co_type_name":"FDa11369553e145010b3323707bd171e38","child_label":"status","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"79b18581-1d80-49bc-8391-0414ad523c88","uiType":"array.object","child_type":"object","child_uiUniqueId":"60d48eb0-f963-47ab-b3d8-e431edf223f8"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Test Flow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 20:17:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ccd89d995d050107f44fd2fed0cf6c1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Test Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value=" London Transit Spoke" source="x_snc_xxxdon_trans">0eb7051995d050107f44fd2fed0cf60e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value=" London Transit Spoke">0eb7051995d050107f44fd2fed0cf60e</sys_scope>
+        <sys_update_name>sys_hub_flow_7ccd89d995d050107f44fd2fed0cf6c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ccd89d995d050107f44fd2fed0cf6c1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7ccd89d995d050107f44fd2fed0cf6c1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=7ccd89d995d050107f44fd2fed0cf6c1^sys_idNOT IN04e1995d95d050107f44fd2fed0cf628,23a32d55951450107f44fd2fed0cf622"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="List Line Statuses">263d09d995d050107f44fd2fed0cf645</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Flow">7ccd89d995d050107f44fd2fed0cf6c1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 20:35:26</sys_created_on>
+        <sys_id>04e1995d95d050107f44fd2fed0cf628</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value=" London Transit Spoke">0eb7051995d050107f44fd2fed0cf60e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <ui_id>ae15e228-5d9b-4238-a1d3-5316f2e0df38</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=04e1995d95d050107f44fd2fed0cf628"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>04e1995d95d050107f44fd2fed0cf628</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:53:13</sys_created_on>
+        <sys_id>27a32d55951450107f44fd2fed0cf620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 21:53:13</sys_updated_on>
+        <value>tube</value>
+        <variable display_value="">ae28d1dd95d050107f44fd2fed0cf622</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Flow">7ccd89d995d050107f44fd2fed0cf6c1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:53:13</sys_created_on>
+        <sys_id>23a32d55951450107f44fd2fed0cf622</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value=" London Transit Spoke">0eb7051995d050107f44fd2fed0cf60e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <ui_id>e772c17c-2592-4dfd-9d46-647cad5f704a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23a32d55951450107f44fd2fed0cf622"/>
+    <sys_element_mapping action="delete_multiple" query="id=23a32d55951450107f44fd2fed0cf622"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>23a32d55951450107f44fd2fed0cf622</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 22:08:12</sys_created_on>
+        <sys_id>f6176519951450107f44fd2fed0cf628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{ae15e228-5d9b-4238-a1d3-5316f2e0df38.statuses}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>23a32d55951450107f44fd2fed0cf622</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:53:14</sys_created_on>
+        <sys_id>afa3ad55951450107f44fd2fed0cf646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 21:53:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{ae15e228-5d9b-4238-a1d3-5316f2e0df38.statuses}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=7ccd89d995d050107f44fd2fed0cf6c1^sys_idNOT IN80e1995d95d050107f44fd2fed0cf626"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Test Flow">7ccd89d995d050107f44fd2fed0cf6c1</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 20:35:26</sys_created_on>
+        <sys_id>80e1995d95d050107f44fd2fed0cf626</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=80e1995d95d050107f44fd2fed0cf626"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>80e1995d95d050107f44fd2fed0cf626</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 20:35:26</sys_created_on>
+        <sys_id>08e1995d95d050107f44fd2fed0cf626</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 20:35:26</sys_updated_on>
+        <value>1970-01-01 17:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7ccd89d995d050107f44fd2fed0cf6c1^sys_idNOT INf8cd89d995d050107f44fd2fed0cf6c3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7ccd89d995d050107f44fd2fed0cf6c1</id>
+        <name>Test Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 20:17:28</sys_created_on>
+        <sys_id>f8cd89d995d050107f44fd2fed0cf6c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 20:17:28</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=7ccd89d995d050107f44fd2fed0cf6c1^sys_idNOT IN04e1995d95d050107f44fd2fed0cf628,23a32d55951450107f44fd2fed0cf622"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="List Line Statuses">263d09d995d050107f44fd2fed0cf645</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Flow">7ccd89d995d050107f44fd2fed0cf6c1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 20:35:26</sys_created_on>
+        <sys_id>04e1995d95d050107f44fd2fed0cf628</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value=" London Transit Spoke">0eb7051995d050107f44fd2fed0cf60e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <ui_id>ae15e228-5d9b-4238-a1d3-5316f2e0df38</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=04e1995d95d050107f44fd2fed0cf628"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>04e1995d95d050107f44fd2fed0cf628</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:53:13</sys_created_on>
+        <sys_id>27a32d55951450107f44fd2fed0cf620</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 21:53:13</sys_updated_on>
+        <value>tube</value>
+        <variable display_value="">ae28d1dd95d050107f44fd2fed0cf622</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Test Flow">7ccd89d995d050107f44fd2fed0cf6c1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:53:13</sys_created_on>
+        <sys_id>23a32d55951450107f44fd2fed0cf622</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value=" London Transit Spoke">0eb7051995d050107f44fd2fed0cf60e</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <ui_id>e772c17c-2592-4dfd-9d46-647cad5f704a</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=23a32d55951450107f44fd2fed0cf622"/>
+    <sys_element_mapping action="delete_multiple" query="id=23a32d55951450107f44fd2fed0cf622"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>23a32d55951450107f44fd2fed0cf622</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 22:08:12</sys_created_on>
+        <sys_id>f6176519951450107f44fd2fed0cf628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 22:08:12</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>{{ae15e228-5d9b-4238-a1d3-5316f2e0df38.statuses}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>23a32d55951450107f44fd2fed0cf622</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:53:14</sys_created_on>
+        <sys_id>afa3ad55951450107f44fd2fed0cf646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 21:53:14</sys_updated_on>
+        <table>var__m_sys_hub_action_input_5bc1bcc6531003003bf1d9109ec587d4</table>
+        <value>{{ae15e228-5d9b-4238-a1d3-5316f2e0df38.statuses}}</value>
+    </sys_element_mapping>
+</record_update>

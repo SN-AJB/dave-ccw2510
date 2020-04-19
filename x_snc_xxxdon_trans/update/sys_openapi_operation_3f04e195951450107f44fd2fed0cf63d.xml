@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_openapi_operation">
+    <sys_openapi_operation action="INSERT_OR_UPDATE">
+        <complex_object_ids>3b04e195951450107f44fd2fed0cf637,fb04e195951450107f44fd2fed0cf60d,7304e195951450107f44fd2fed0cf62e,f304e195951450107f44fd2fed0cf63c,b304e195951450107f44fd2fed0cf60c,7304e195951450107f44fd2fed0cf639,3704e195951450107f44fd2fed0cf60f,7f04e195951450107f44fd2fed0cf610,3b04e195951450107f44fd2fed0cf62c,f304e195951450107f44fd2fed0cf631,b704e195951450107f44fd2fed0cf629,ff04e195951450107f44fd2fed0cf62a,3f04e195951450107f44fd2fed0cf632,bb04e195951450107f44fd2fed0cf63a,7704e195951450107f44fd2fed0cf634</complex_object_ids>
+        <deprecated>false</deprecated>
+        <http_method>get</http_method>
+        <name>Gets a list of valid modes</name>
+        <openapi display_value="Transport for London Unified API - v1">eb04e195951450107f44fd2fed0cf609</openapi>
+        <path>/Line/Meta/Modes</path>
+        <serialized_operation>{"fName":"Gets a list of valid modes","fOperationId":"Line_MetaModes","fPath":"/Line/Meta/Modes","fHttpMethod":"GET","fDeprecated":false,"fResponses":[{"fStatusCode":"200","fDescription":"OK","fContents":[{"fMediaType":"application/json","fSchema":{"fName":"responseapplicationjson6805844124","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responseapplicationjson6805844124","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Mode","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"text/json","fSchema":{"fName":"responsetextjson8609993827","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responsetextjson8609993827","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Mode","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"application/xml","fSchema":{"fName":"responseapplicationxml1840191621","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responseapplicationxml1840191621","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Mode","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}},{"fMediaType":"text/xml","fSchema":{"fName":"responsetextxml1772350894","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fType":"array","fProperties":[{"fName":"responsetextxml1772350894","fReferencedName":"#/components/schemas/Tfl.Api.Presentation.Entities.Mode","fExclusiveMaximum":false,"fExclusiveMinimum":false,"fUniqueItems":false,"fRequired":[],"fEnum":[],"fProperties":[],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}],"fOneOf":[],"fNullable":false,"fReadOnly":false,"fWriteOnly":false,"fDeprecated":false,"fGlideType":"object"}}],"fHeaders":[]}],"fParameters":[]}</serialized_operation>
+        <sys_class_name>sys_openapi_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-19 21:54:53</sys_created_on>
+        <sys_id>3f04e195951450107f44fd2fed0cf63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Gets a list of valid modes</sys_name>
+        <sys_package display_value=" London Transit Spoke" source="x_snc_xxxdon_trans">0eb7051995d050107f44fd2fed0cf60e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value=" London Transit Spoke">0eb7051995d050107f44fd2fed0cf60e</sys_scope>
+        <sys_update_name>sys_openapi_operation_3f04e195951450107f44fd2fed0cf63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-19 21:54:53</sys_updated_on>
+    </sys_openapi_operation>
+</record_update>
